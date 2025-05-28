@@ -38,5 +38,15 @@ dsflishadfl
 
 asfdsfasdf
 
+<<<<<<< Updated upstream
+=======
+
+
+정현성입니다.
+
+
+
+
+>>>>>>> Stashed changes
 123123123123
 없에지 말아주세요 제발~ ~
