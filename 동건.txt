@@ -1,1 +1,32 @@
-COA 진짜 진짜 하고 싶어요
+
+int main()
+
+{
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
+
+	int arry[5] = { a, b, c, d, e };
+
+	cin >> a >> b >> c >> d >> e;
+
+
+	return 0;
+}
+
+int sum(array, size)
+{
+	int total = 0;
+
+	for(int i = 0; i < size[]; i++)
+		total += arr[i]
+	return total;
+}
+
+int aver()
+{
+
+	return 0;
+}
