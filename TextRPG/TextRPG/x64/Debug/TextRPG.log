@@ -1,0 +1,53 @@
+﻿  TextRPG.cpp
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(55,14): error C2061: 구문 오류: 식별자 'Character'
+      C:\clone\18_TEST\TextRPG\TextRPG.cpp(55,14):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\clone\18_TEST\TextRPG\TextRPG.cpp(42,7):
+          클래스 템플릿 'Gamemanager'을(를) 컴파일하는 동안
+  
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(47,22): error C2187: 구문 오류: 예기치 않은 'Goblin이(가) 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(47,28): error C3878: 구문 오류: 예기치 않은 토큰 '('이(가) 'expression' 다음에 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(47,34): error C2760: 구문 오류: 여기서 ')'은(는) 예상치 못한 오류였습니다. 예상된 오류는 ';'였습니다
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(47,34): error C3878: 구문 오류: 예기치 않은 토큰 ')'이(가) 'jump-statement' 다음에 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(48,22): error C2187: 구문 오류: 예기치 않은 'Orc이(가) 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(48,25): error C3878: 구문 오류: 예기치 않은 토큰 '('이(가) 'expression' 다음에 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(48,31): error C2760: 구문 오류: 여기서 ')'은(는) 예상치 못한 오류였습니다. 예상된 오류는 ';'였습니다
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(48,31): error C3878: 구문 오류: 예기치 않은 토큰 ')'이(가) 'jump-statement' 다음에 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(49,22): error C2187: 구문 오류: 예기치 않은 'Troll이(가) 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(49,27): error C3878: 구문 오류: 예기치 않은 토큰 '('이(가) 'expression' 다음에 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(49,33): error C2760: 구문 오류: 여기서 ')'은(는) 예상치 못한 오류였습니다. 예상된 오류는 ';'였습니다
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(49,33): error C3878: 구문 오류: 예기치 않은 토큰 ')'이(가) 'jump-statement' 다음에 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(50,22): error C2187: 구문 오류: 예기치 않은 'Slime이(가) 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(50,27): error C3878: 구문 오류: 예기치 않은 토큰 '('이(가) 'expression' 다음에 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(50,33): error C2760: 구문 오류: 여기서 ')'은(는) 예상치 못한 오류였습니다. 예상된 오류는 ';'였습니다
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(50,33): error C3878: 구문 오류: 예기치 않은 토큰 ')'이(가) 'jump-statement' 다음에 있습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(56,32): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(59,10): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(59,10): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(62,26): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(63,10): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(67,24): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(70,5): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(70,5): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(72,5): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(72,5): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(76,12): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(76,12): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(76,40): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(76,40): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(77,6): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(86,4): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(87,8): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(87,8): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(87,27): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(88,95): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(91,7): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(91,7): error C3861: 'player': 식별자를 찾을 수 없습니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(56,32): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(62,26): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(63,10): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(67,24): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(77,6): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(86,4): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(87,27): error C2065: 'player': 선언되지 않은 식별자입니다.
+C:\clone\18_TEST\TextRPG\TextRPG.cpp(88,95): error C2065: 'player': 선언되지 않은 식별자입니다.
