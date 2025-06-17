@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\clone\\18_TEST\\TextRPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|C:\\clone\\18_TEST\\TextRPG\\Gemini.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|solutionrelative:Gemini.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|C:\\clone\\18_TEST\\TextRPG\\TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|solutionrelative:TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gemini.cpp",
+              "DocumentMoniker": "C:\\clone\\18_TEST\\TextRPG\\Gemini.cpp",
+              "RelativeDocumentMoniker": "Gemini.cpp",
+              "ToolTip": "C:\\clone\\18_TEST\\TextRPG\\Gemini.cpp",
+              "RelativeToolTip": "Gemini.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-16T23:51:49.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TextRPG.cpp",
+              "DocumentMoniker": "C:\\clone\\18_TEST\\TextRPG\\TextRPG.cpp",
+              "RelativeDocumentMoniker": "TextRPG.cpp",
+              "ToolTip": "C:\\clone\\18_TEST\\TextRPG\\TextRPG.cpp",
+              "RelativeToolTip": "TextRPG.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-16T23:00:32.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
