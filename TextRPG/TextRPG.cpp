@@ -1,14 +1,4 @@
-<<<<<<< Updated upstream
-﻿class ace {
-
-};
-﻿include <iostream>
-
-using namespace std;
-
-int main()
-=======
-﻿//1. * *캐릭터 생성 및 관리 * *
+//1. * *캐릭터 생성 및 관리 * *
 //-원하는 이름으로 캐릭터를 하나 뿅!만들 수 있어야 합니다.
 //- **레벨 1 * *, ** 초기 체력 200 * *, ** 공격력 30 * *, ** 경험치 0 * *으로 시작하고, 레벨업에 필요한 경험치는** 100 * *고정!
 //- 언제든지 캐릭터 상태 확인 가능!
@@ -42,90 +32,31 @@ int main()
 
 #include <iostream>
 #include <string>
-#include <vector>
-#include <ctime>
-#include <cstdlib>
 
 using namespace std;
 
-template<typename T>
-class Gamemanager 
+template<typename Monster>
+class Gamemanager
 {
+
 public:
-	T* generateMonster(int level) 
-	{
-		int monsterType = rand() % 4;
-		switch (monsterType) 
-		{
-		case 0: return new Goblin(level);
-		case 1: return new Orc(level);
-		case 2: return new Troll(level);
-		case 3: return new Slime(level);
-		}
-		return nullptr;
-	}
 
-	void battle(Character& player) 
-	{
-		T* monster = generateMonster(player.level);
-		cout << monster->getName() << "이(가) 등장했습니다!" << endl;
-
-		while (player.health > 0 && monster->getHealth() > 0) 
-		{
-			// 아이템 확률 (30%)
-			if (rand() % 100 < 30) 
-			{
-				if (rand() % 2 == 0) player.usehealthBoost();
-				else player.useAttackBoost();
-			}
-
-			// 플레이어 공격
-			monster->takeDamage(player.attack);
-			if (monster->getHealth() <= 0) 
-			{
-				cout << monster->getName() << " 처치 완료!" << endl;
-				player.experience += 50;
-				int earnedGold = rand() % 11 + 10; // 10~20 골드
-				player.gold += earnedGold;
-				cout << "경험치 50, 골드 " << earnedGold << " 획득!" << endl;
-
-				// 자동 레벨업
-				while (player.experience >= 100 && player.level < 10) 
-				{
-					player.levelup();
-				}
-
-				delete monster;
-				return;
-			}
-
-			// 몬스터 공격
-			int damage = monster->getAttack();
-			player.health -= damage;
-			if (player.health < 0) player.health = 0;
-			cout << monster->getName() << "의 공격! " << damage << "의 피해! 남은 체력: " << player.health << endl;
-		}
-
-		if (player.health <= 0) 
-		{
-			cout << "전투 실패... 캐릭터가 쓰러졌습니다." << endl;
-		}
-
-		delete monster;
-	}
+	Monster* generateMonster(int level);
+	void battle(int* character);
+	void displayInventory(int* character);
 
 };
 
-class Character 
+class Character
 {
-	public:
+public:
 	string name;
 	int level;
 	int health;
 	int attack;
 	int experience;
 	int gold;
-	Character(string characterName) 
+	Character(string characterName)
 	{
 		name = characterName;
 		level = 1;
@@ -134,36 +65,36 @@ class Character
 		experience = 0;
 		gold = 0;
 	}
-	void displayStatus() 
+	void displayStatus()
 	{
 		cout << "캐릭터: " << name << endl;
 		cout << "레벨: " << level << ", HP: " << health << ", 공격력: " << attack << ", 경험치: " << experience << ", 골드: " << gold << endl;
 	}
-	void levelup() 
+	void levelup()
 	{
-			if (experience >= 100 && level < 10) 
-			{
-				level++;
-				health += (level * 20);
-				attack += (level * 5);
-				experience = 0; // Reset experience after leveling up
-				cout << name << " 레벨업!! " << level << "HP와 공격력 증가!!" << endl;
-			} 
-			else if (level >= 10) 
-			{
-				cout << name << " 최대 레벨에 도달하였습니다!!" << endl;
-			}
+		if (experience >= 100 && level < 10)
+		{
+			level++;
+			health += (level * 20);
+			attack += (level * 5);
+			experience = 0;
+			cout << name << " 레벨업!! " << level << "HP와 공격력 증가!!" << endl;
+		}
+		else if (level >= 10)
+		{
+			cout << name << " 최대 레벨에 도달하였습니다!!" << endl;
+		}
 	}
 	void usehealthBoost()
 	{
-		int healthBoost = 50; // Item effect for health
+		int healthBoost = 50;
 		health += healthBoost;
 		cout << name << " 아이템을 사용하였습니다. HP가" << healthBoost << "만큼 증가합니다." << endl;
-		
+
 	}
 	void useAttackBoost()
 	{
-		int attackBoost = 10; // Item effect for attack
+		int attackBoost = 10;
 		attack += attackBoost;
 		cout << name << " 아이템을 사용하였습니다. 공격력이 " << attackBoost << "만큼 증가합니다." << endl;
 	}
@@ -259,7 +190,7 @@ public:
 	string name;
 	int health;
 	int attack;
-	
+
 	Troll(int level)
 	{
 		name = "트롤";
@@ -330,18 +261,14 @@ public:
 	}
 };
 
-
-
-int main() 
+int main()
 {
-	Gamemanager<Monster> manager;
-
 	string characterName;
 	cout << "이름을 입력해주세요 주인님: ";
 	cin >> characterName;
 	Character player(characterName);
 	player.displayStatus();
-	
+
 
 	while (true)
 	{
@@ -358,7 +285,6 @@ int main()
 		}
 		else if (choice == 2)
 		{
-			manager.battle(player);
 		}
 		else if (choice == 3)
 		{
@@ -377,4 +303,3 @@ int main()
 
 	return 0;
 }
->>>>>>> Stashed changes

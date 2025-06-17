@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git\\18_TEST\\TextRPG\\",
+  "WorkspaceRootPath": "C:\\clone\\18_TEST\\TextRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|C:\\Git\\18_TEST\\TextRPG\\TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|C:\\clone\\18_TEST\\TextRPG\\TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|solutionrelative:TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|C:\\clone\\18_TEST\\TextRPG\\Gemini.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{431CC313-C15E-4253-A9E7-80E76D89E9AE}|TextRPG.vcxproj|solutionrelative:Gemini.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gemini.cpp",
+              "DocumentMoniker": "C:\\clone\\18_TEST\\TextRPG\\Gemini.cpp",
+              "RelativeDocumentMoniker": "Gemini.cpp",
+              "ToolTip": "C:\\clone\\18_TEST\\TextRPG\\Gemini.cpp",
+              "RelativeToolTip": "Gemini.cpp",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAcwDABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-16T23:51:49.273Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TextRPG.cpp",
-              "DocumentMoniker": "C:\\Git\\18_TEST\\TextRPG\\TextRPG.cpp",
+              "DocumentMoniker": "C:\\clone\\18_TEST\\TextRPG\\TextRPG.cpp",
               "RelativeDocumentMoniker": "TextRPG.cpp",
-              "ToolTip": "C:\\Git\\18_TEST\\TextRPG\\TextRPG.cpp",
+              "ToolTip": "C:\\clone\\18_TEST\\TextRPG\\TextRPG.cpp",
               "RelativeToolTip": "TextRPG.cpp",
-<<<<<<< Updated upstream
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAEgBAAAAAAAAAAAcwFwBAAAXAAAAAAAAAA==",
->>>>>>> Stashed changes
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADABAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-13T08:45:59.576Z",
+              "WhenOpened": "2025-06-16T23:00:32.009Z",
               "EditorCaption": ""
             }
           ]

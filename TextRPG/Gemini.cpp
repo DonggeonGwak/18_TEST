@@ -77,7 +77,7 @@ public:
 			level++;
 			health += (level * 20);
 			attack += (level * 5);
-			experience = 0; // Reset experience after leveling up
+			experience = 0; 
 			cout << name << " 레벨업!! " << level << "HP와 공격력 증가!!" << endl;
 		}
 		else if (level >= 10)
@@ -87,14 +87,14 @@ public:
 	}
 	void usehealthBoost()
 	{
-		int healthBoost = 50; // Item effect for health
+		int healthBoost = 50; 
 		health += healthBoost;
 		cout << name << " 아이템을 사용하였습니다. HP가" << healthBoost << "만큼 증가합니다." << endl;
 
 	}
 	void useAttackBoost()
 	{
-		int attackBoost = 10; // Item effect for attack
+		int attackBoost = 10; 
 		attack += attackBoost;
 		cout << name << " 아이템을 사용하였습니다. 공격력이 " << attackBoost << "만큼 증가합니다." << endl;
 	}
